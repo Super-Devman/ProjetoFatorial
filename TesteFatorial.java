@@ -4,6 +4,9 @@ public class TesteFatorial {
         Fatorial fatorial = new Fatorial();
         int resultado = fatorial.calcularFatorial(0);
         System.out.println(resultado);
+
+        resultado = fatorial.calcularFatorial(4);
+        System.out.println(resultado);
    }
 
 }
