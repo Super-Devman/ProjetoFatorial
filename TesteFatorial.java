@@ -2,10 +2,10 @@ public class TesteFatorial {
    
    public static void main(String [] args) {
         Fatorial fatorial = new Fatorial();
-        int resultado = fatorial.calcularFatorial(0);
+        int resultado = fatorial.calcularFatorialIterativo(0);
         System.out.println(resultado);
 
-        resultado = fatorial.calcularFatorial(4);
+        resultado = fatorial.calcularFatorialIterativo(4);
         System.out.println(resultado);
    }
 
